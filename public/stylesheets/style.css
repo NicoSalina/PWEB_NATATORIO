@@ -1,0 +1,129 @@
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Quicksand', sans-serif;
+}
+a {
+  color: #00b5ad;
+}
+.logoNavbar{
+  width: 100px;
+}
+.btn-register{
+  margin-right: 15px;
+}
+
+.bg-warning {
+  background-color:rgb(32, 82, 219) !important; /* si uso la misma clase que el bootstrap ponerle (!important) para que pise el bootstrap)*/
+}
+
+.bg-dark {
+  background-color:rgb(21, 34, 226) !important; /* si uso la misma clase que el bootstrap ponerle (!important) para que pise el bootstrap)*/
+}
+/* Footer */
+.footer{
+  background-color: #00b5ad;
+  color: white;
+  width: 100%;
+  margin-top: auto;
+}
+.border-div{
+  border-right: 2px solid  #ffffff;
+}
+.quick-links{
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding: 10px;
+}
+.quick-links:hover{
+  color:  #696969;
+}
+.socialicon{
+  color:rgb(255, 255, 255);
+  font-size: 40px;
+  text-align: center;
+  padding: 15px;
+}
+
+.socialicon:hover{
+  color:#ffffff;
+}
+
+.iconos-contacto {
+  font-size: 1.3rem;
+}
+.titles-footer{
+  font-size: 1.2rem;
+}
+.table-img-size{
+  height: 50px;
+}
+
+.btn-color-stp {
+  background-color:#001bb5;
+  color: white;
+}
+.btn-color-stp:hover {
+  background-color:#002c46;
+  color: white;
+}
+.feature {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+  font-size: 1.5rem;
+  background-color:#003946;
+}
+.logo-color-size{
+  height:100px;
+}
+.bg-about-us {
+  background-image: url(../images/Marcas_Transparentes-06.png);
+  background-size: cover;
+  color: black;
+}
+.bg-contact-page{
+  background-image: url(../images/bg-contacto.png);
+  background-size: cover;
+}
+.bg-light-contact{
+  background-color: #00394659;
+}
+.bg-register{
+  background-image: url(../images/natatorio1.jpg);
+  background-size: cover;
+}
+.card-register{
+  background-color: #00394685;
+}
+.bg-login{
+  background-image: url(../images/bgLogin.jpg);
+  background-size: cover;
+}
+.error-404{
+  font-family: 'Merriweather', serif;
+  font-size: 80px;
+  color: #003946;
+}
+.error-401{
+  font-family: 'Merriweather', serif;
+  font-size: 80px;
+  color:rgb(238, 50, 50);
+}
+.img-401{
+  width: 80%;
+}
+.back-index {
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+}
+.img-card-admin {
+  height: 154px;
+}
+.img-singleProduct{
+  border: 3px solid #003946;
+}

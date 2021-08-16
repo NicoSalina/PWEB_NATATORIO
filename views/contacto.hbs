@@ -1,0 +1,43 @@
+<div class="container-fluid bg-light p-3 text-white">
+  <div class="row">
+    <div class="col-md-8">
+    </div>
+    <div class="col-md-4 d-flex justify-content-end">
+      {{#if user}}
+        <h5 class="me-3"> {{user}}</h5>
+        <a href="/login/logout" class="btn btn-color-stp">Cerrar sesión</a>
+      {{/if}}
+    </div>
+  </div>
+</div>
+        <!-- Contact form-->
+        <div class="bg-light-contact rounded-3 py-5 px-4 px-md-5 mb-5">
+            <div class="text-center mb-5">
+                <h1 class="fw-bolder">Consultas</h1>
+            </div>
+            <div class="row gx-5 justify-content-center">
+                <div class="col-lg-8 col-xl-6">
+                    <form id="contactForm">
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="name" type="text" required="required"/>
+                            <label for="name">Nombre</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="email" type="email"/>
+                            <label for="email">Dirección de email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" id="phone" type="tel" />
+                            <label for="phone">Número de teléfono</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="message" type="text" style="height: 10rem"></textarea>
+                            <label for="message">Mensaje</label>
+                        </div>
+                        <div class="d-grid"><button class="btn btn-color-stp btn-lg" id="submitButton" type="submit">Enviar consulta</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
