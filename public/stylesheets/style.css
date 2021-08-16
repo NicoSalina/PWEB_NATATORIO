@@ -1,6 +1,6 @@
 
 body{
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   font-family: 'Quicksand', sans-serif;
@@ -19,16 +19,19 @@ a {
   background-color:rgb(32, 82, 219) !important; /* si uso la misma clase que el bootstrap ponerle (!important) para que pise el bootstrap)*/
 }
 
+.bg-footer {
+  background-color: #a2cff0 !important;
+}
 .bg-dark {
   background-color:rgb(21, 34, 226) !important; /* si uso la misma clase que el bootstrap ponerle (!important) para que pise el bootstrap)*/
 }
 /* Footer */
 .footer{
-  background-color: #00b5ad;
   color: white;
   width: 100%;
   margin-top: auto;
 }
+
 .border-div{
   border-right: 2px solid  #ffffff;
 }
@@ -101,7 +104,7 @@ a {
   background-color: #00394685;
 }
 .bg-login{
-  background-image: url(../images/bgLogin.jpg);
+  background-image: url(../images/login.jpg);
   background-size: cover;
 }
 .error-404{
