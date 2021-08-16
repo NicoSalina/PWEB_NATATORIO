@@ -1,0 +1,19 @@
+#mail
+MAIL_SERVICE = 'gmail'
+MAIL_USER = 'XXXXX@gmail.com'
+MAIL_PASSWORD = 'XXXXX'
+URL_SERVER = 'http://localhost'
+PORT = 3000
+
+#db
+DB_HOST = 'localhost'
+DB_USER = 'root'
+DB_PASSWORD = ''
+DB_PORT = '3306'
+DB_DATABASE = 'tp_final'
+
+#models
+T_PRODUCTOS = "productos"
+T_CATEGORIAS = "categoria"
+T_USUARIOS = "usuarios"
+T_IMGPRODUCTOS = "imagenes-productos"
